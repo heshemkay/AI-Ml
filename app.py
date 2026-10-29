@@ -6,7 +6,7 @@ import numpy as np
 # 1. Load your downloaded model
 @st.cache_resource
 def load_my_model():
-    return tf.keras.models.load_model("cat_dog_model.h5")
+    return tf.keras.models.load_model("best_model.h5")
 
 model = load_my_model()
 
